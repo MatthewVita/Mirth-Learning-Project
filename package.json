@@ -1,0 +1,17 @@
+{
+  "name": "mirth-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Vita",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-xml-bodyparser": "^0.3.0",
+    "mllp-node": "^1.0.0",
+    "request": "^2.60.0"
+  }
+}
