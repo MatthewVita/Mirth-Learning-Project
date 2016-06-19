@@ -16,7 +16,8 @@ Solution: The integration team has determined that Mirth, an interface engine, w
 - After 3 seconds, SomeEMR sends an HL7 message to Mirth, which goes to AllergyTracker.
 - After 5 seconds, AllergyTracker POSTs an XML payload to Mirth, which goes to SomeEMR.
 - Transformers are backed up in their own JavaScript files for demonstration purposes. Best to edit them in Mirth using the built in editor.
-- The data/use case are totally bogus. I plan on sending this gist around to some friends that are familiar with Mirth and HL7 so that they can provide a more realistic use case. Perhaps at that point, I can transition this to be a full GH repo.
+- The data/use case are totally bogus. I plan on sending this around to some friends that are familiar with Mirth and HL7 so that they can provide a more realistic use case. Would ultimately like for this to serve as a good educational resource for those starting out with Mirth.
+- Need to mock out "YetAnotherEMR" to demonstrate multiple destinations.
 - `node-mllp` package needs to provide a better way to send messages. A workaround is in place, but I plan on submitting a PR to fix this the right way.
 
 ## Setup
