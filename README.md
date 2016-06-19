@@ -32,6 +32,15 @@ sudo ./mirthconnect-3.4.0.8000.b1959-unix.sh
 
 Assuming Node is installed, run `npm install` to install the project depedencies. Once complete, run `node AllergyTrackerServer.js` and, in a new tab, run `node SomeEMRServer.js`. The output should be:
 
+##### End-to-End Message sending via mocked out medical systems:
+
+![img](https://raw.githubusercontent.com/MatthewVita/Mirth-Learning-Project/master/screenshots/end-to-end-example.PNG)
+
+##### HL7 to XML transformation results:
+![img](https://raw.githubusercontent.com/MatthewVita/Mirth-Learning-Project/master/screenshots/hl7-to-xml.PNG)
+
+##### XML to HL7 transformation results:
+![img](https://raw.githubusercontent.com/MatthewVita/Mirth-Learning-Project/master/screenshots/xml-to-hl7.PNG)
 
 ## License
 MIT
